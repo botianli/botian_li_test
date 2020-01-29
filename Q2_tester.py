@@ -8,8 +8,14 @@ def main():
   a="1.1"
   b="0"
   CompareTwoString(a, b)
+  a = "1.1.1"
+  b = "1"
+  CompareTwoString(a,b)
   a="a"
   b="b"
+  CompareTwoString(a,b)
+  a = "1.1,1"
+  b = "1"
   CompareTwoString(a, b)
 
 
