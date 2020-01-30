@@ -34,3 +34,8 @@ The input is invalid, try again.
 1.1.1 is less than 1.2
 
 1.2.1 is greater than 1
+
+Q3 LRU_Cache:
+
+The cache is identified by location name, To have LRU cache, I set default capacity to  5 for easy testing purpose.
+I use ordered dictionary to tract the least used key.  get(key) method will rearrange order in the dictionary so that if list is at max capacity, the last item we popout is always the least being used. In Q3_test, I have a little tester to test that.
